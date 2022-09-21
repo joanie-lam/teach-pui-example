@@ -138,11 +138,11 @@ a{
 }
 
 .product-img {
-    width: 248px;
+    width: 244px;
     height: 250px;
     border: 3.5px solid black;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .product-name {
