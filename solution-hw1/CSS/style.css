@@ -1,0 +1,294 @@
+.logo {
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+/* style for logo */
+h1 {
+    border-bottom: 3.5px solid black;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-container {
+    text-align:center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px; 
+}
+
+#menu-products {
+    background-color: yellow;
+    width: fit-content; 
+    padding: 2.5px
+}
+
+#menu-cart {
+    background-color: yellow;
+    width: fit-content; 
+    padding: 2.5px
+}
+
+#p1 { 
+    font-size: 20px;
+    margin: 50px 0px 20px;
+}
+
+.products-container {
+    width: 200px;
+    margin: 0px auto 0px auto;
+}
+
+#product-1 {
+    pointer-events: none;
+    width: 207px;
+    display: block;
+    border: 2px solid transparent;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+#product-1:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#product1-detail {
+    display: block;
+    pointer-events: auto;
+}
+
+.product-img {
+    width: 200px;
+    border: 3.5px solid black;
+    display: block;
+    margin-bottom: 0px;
+}
+
+.product-name {
+    margin-top: 4px;
+    margin-bottom: 1px;
+}
+
+.product-price {
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+#product-2 {
+    pointer-events: none;
+    width: 207px;
+    display: block;
+    border: 2px solid transparent;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+#product-2:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#product2-detail {
+    display: block;
+    pointer-events: auto;
+}
+
+#product-3 {
+    pointer-events: none;
+    width: 207px;
+    display: block;
+    border: 2px solid transparent;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+#product-3:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#product3-detail {
+    display: block;
+    pointer-events: auto;
+}
+
+#product-4 {
+    pointer-events: none;
+    width: 207px;
+    display: block;
+    border: 2px solid transparent;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+#product-4:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#product4-detail {
+    display: block;
+    pointer-events: auto;
+}
+
+#product-5 {
+    pointer-events: none;
+    width: 207px;
+    display: block;
+    border: 2px solid transparent;
+    height: 260px;
+    margin-bottom: 30px;
+}
+
+#product-5:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#product5-detail {
+    display: block;
+    pointer-events: auto;
+}
+
+#product-6 {
+    pointer-events: none;
+    width: 207px;
+    display: block;
+    border: 2px solid transparent;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+#product-6:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#product6-detail {
+    display: block;
+    pointer-events: auto;
+}
+
+#product-display-container {
+    width: 300px;
+    height: 250px;
+    text-align:center;
+}
+
+#product-detail-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+#p2 {
+    display: inline-block;
+    text-align: left;
+    margin-left: 41%
+}
+
+#product-detail-img {
+    width: 300px;
+    border: 3px solid black;
+}
+
+.glazing-container {
+    width: 210px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#glazing {
+    background-color: transparent;
+    border: 2px solid black;
+    width: 210px;
+}
+
+select{
+    width: 125px;
+    height: 25px;}
+
+.pack-container {
+        width: 210px;
+        margin: 0 auto;
+        margin-top: 20px;
+}
+    
+#pack {
+    background-color: transparent;
+    border: 2px solid black;
+    width: 210px;
+    position: relative;
+}
+
+#cost {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.addtocart {
+    padding: 8px 30px 8px 30px;
+    border: 2.5px solid black;
+    background-color: yellow;
+    margin-bottom: 400px;
+    margin-left: 15px;
+}
+
+.cart-container {
+    width: 400px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+}
+
+.item-img {
+    width: 100px;
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3.0px solid black;    
+}
+
+.remove {
+    background-color: transparent;
+    border: none;
+    font-size: 10px;
+}
+
+.item-summary {
+    line-height: 1.5;
+}
+
+.hr{
+    width:100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2.5px solid black;
+
+}
+
+#checkout_box {
+    padding: 8px 30px 8px 30px;
+    border: 2px solid black;
+    background-color: yellow;
+    font-weight: bold;
+    margin-bottom: 400px;
+}
+
+.item-price {
+    font-size: 25px;
+}
+
+.total_cost {
+    font-size: 25px;
+    margin-top: 10px;
+}
