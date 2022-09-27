@@ -1,0 +1,149 @@
+/* setting the font, size and text align for header and body */
+div.box{
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 500;
+    font-size:15px;
+    text-align: center;
+}
+
+/* set the size of log */
+.logo{
+    width: 200px;
+    height: 160px;
+}
+
+/* set the style for unordered list */
+.l1{
+    list-style-type:none; 
+    margin-top: 10px;
+    margin-bottom: 30px; 
+    line-height: 25px;
+}
+
+/* set the style for paragraph to fill the text */
+.p1{
+    text-align:center;
+}
+
+
+
+/* set the size and display for container to contain the image and caption */
+div.container {
+    width: 160px;
+    height: 170px;
+    display: block;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: 45px;
+}
+/* set the hover effect for container */
+div.container:hover{
+    background-color: yellow;
+}
+
+/* set the size and display for iamge */
+.img{
+    width: 160px;
+    height: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+/* set the hover for iamge */
+.img:hover{
+    border: yellow;
+}
+
+.img1{
+    width: 300px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.img2{
+    width: 80px;
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+
+div.container1 {
+    width: 190px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-left:570;
+    margin-bottom: 30px;
+}
+
+
+.img-with-text{
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    font-size:13px
+}
+
+.img-with-text2{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size:13px
+}
+
+
+label {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-left:570;
+}
+
+select{
+    width: 124px;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.checkout_box{
+    width: 120px;
+    height: 30px;
+}
+.checkout_box:hover{
+    background-color: yellow;
+}
+
+.add_cart_box{
+    width: 120px;
+    height: 30px;
+}
+.add_cart_box:hover{
+    background-color: yellow;
+}
+
+.hr_size{
+    margin:0 auto;
+    border: 1px solid;
+}
+
+.hr_size2{
+    width:50%;
+    margin:0 auto;
+    border: 1px solid;
+}
+
+/* mouse over link */
+a:hover {
+    background-color: yellow;
+} 
+
+a:active {
+    background-color: yellow;
+}

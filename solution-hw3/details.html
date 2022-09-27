@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Bun Bun bake shop</title>
+    <meta name="author" content="Joanie Lam">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script defer src="./JS/script.js"></script>
+
+  </head>
+  
+
+  <body>
+    <h class="h1">
+      <a href="./index.html"><img class="logo" src="./logo/logo-01.svg" alt="Bun Bun bake shop"></a>
+
+      <div class="column_head_right">
+          <p class="menu_row">
+              <a id="menu-products-active" href="./index.html">PRODUCTS</a>
+              <a id="menu-cart" href="./cart.html">CART</a>
+          </p>
+
+          <hr class="hr0">
+
+          <p id="p1">Our hand-made cinnamon rolls</p>
+      </div>
+    </h>
+
+    
+    <div class="paragraph_detail_page">
+      <img class="product-detail-img" src="./products/original-cinnamon-roll.jpg" alt="Original cinnamon roll">
+
+      <div class ="column_paragraph_right">
+
+        <p id="p2">Customize our delicious,<br>hand-made cinammon roll to<br>your liking!</p> 
+
+        <div class="glazing-container">
+          <form action="#">
+            <label for="glazing">Glazing:</label><br>
+            <select name="glazing" id="glazing" onchange="glazingChange(this)">
+              <option value="Keep-original">Keep original</option>
+              <option value="Sugar-milk">Sugar milk</option>
+              <option value="Vanilla-milk">Vanilla milk</option>
+              <option value="Double-chocolate">Double chocolate</option>
+            </select>
+          </form>
+        </div>
+        
+  
+        <div class="pack-container">
+          <form action="#">
+            <label for="pack">Pack size:</label>
+            <select name="pack_size" id="pack" onchange="packChange(this)">
+              <option value="pack_size_1">1</option>
+              <option value="pack_size_3">3</option>
+              <option value="pack_size_6">6</option>
+              <option value="pack_size_12">12</option>
+            </select>
+          </form>
+        </div>
+        
+        <div class="addtocart-container">
+          <p id="cost"> $ 2.49</p>  <button class="addtocart"><b>Add to Cart</b></button>
+        </div>
+  
+  
+      </div>
+
+    </div>
+
+    
+  </body>
+</html>
