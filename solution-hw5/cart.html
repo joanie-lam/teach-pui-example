@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Bun Bun bake shop</title>
+    <meta name="author" content="Joanie Lam">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./JS/cartScript.js" defer></script>
+
+  </head>
+  
+
+  <body>
+    <h class="h1">
+      <div class="logo-container">
+        <a href="./index.html"><img class="logo" src="./logo/logo-01.svg" alt="Bun Bun bake shop"></a>
+      </div>
+
+      <div class="column_head_right">
+        <p class="menu_row">
+          <a id="menu-products" href="./index.html">PRODUCTS</a>
+          <a id="menu-cart-active" href="./cart.html">CART</a>
+        </p>
+
+        <hr class="hr0">
+
+        <p id="p1">Shopping Cart</p>
+      </div>
+    </h>
+
+    <div class="paragraph_cart_page">
+        <img class="empty-page" src="./mockups (Labs A-D)/BunBun-Mockup-HW1-Cart.png" alt="empty-section">
+
+        <div class="column_paragraph_right">
+          <template id="cart-template">
+            <div class="item-container">
+          
+              <div class="item-container-sub">
+                <!-- <img class="item-img" src="./products/original-cinnamon-roll.jpg" alt="original cinnamon roll"> -->
+                <img class="item-img">
+                <div class="cart_description">
+                  <p id="item-name" class="item-summary"></p>
+                  <p id="item-glaze" class="item-summary"></p>
+                  <p id="item-pack" class="item-summary"></p>
+                </div>
+                  
+                <p class="item-price"></p>
+              </div>
+              <button class="remove_button"><u>Remove</u></button>
+            </div>
+          </template>
+          
+
+          <hr class="hr1">
+
+          <div class="total-cost-container">
+            <p id="total-label">Total</p> 
+            <p id="total-cost"></p>
+          </div>
+
+          <button id="checkout_box">Checkout</button>
+
+        </div>
+
+    </div>
+
+  </body>
+</html>
